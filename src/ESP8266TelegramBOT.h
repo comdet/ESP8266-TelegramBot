@@ -41,8 +41,7 @@ class TelegramBOT
     String connectToTelegram(String command);
     String _token;
     String _name;
-    String _username;
-    WiFiClientSecure client;
+    String _username;    
 };
 
 #endif

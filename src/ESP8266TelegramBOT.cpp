@@ -46,6 +46,7 @@ String TelegramBOT::connectToTelegram(String command)  {
     String mess="";
     long now;
     bool avail;
+    WiFiClientSecure client;
     // Connect with api.telegram.org       
     IPAddress server(149,154,167,198);
     if (client.connect(server, 443)) {  
